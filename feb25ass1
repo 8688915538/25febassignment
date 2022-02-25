@@ -1,0 +1,16 @@
+n=int(input('enter number'))
+l=[]
+p=[]
+nev=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+for i in range(n):
+    if l[i]>=0:
+        p.append(l[i])
+    else:
+        nev.append(l[i])
+print(p,' ',nev)
+        
+    
