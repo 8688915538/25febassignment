@@ -1,0 +1,17 @@
+n=int(input('enter number:'))
+l=[]
+p=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+c=0
+for i in l:
+    if i==0:
+        c=c+1
+print('count is',c)
+for i in range(n):
+    if l[i]!=0:
+        p.append(l[i])
+        x=x+1
+print(p)
